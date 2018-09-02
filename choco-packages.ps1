@@ -29,7 +29,7 @@ choco upgrade chocolatey
 # Install Boxstarter: http://boxstarter.org/InstallBoxstarter
 cinst -y boxstarter
 
-# Development Tools - Visual Studio Code
+# IDE / Dev Tools
 cinst -y notepadplusplus
 cinst -y git
 cinst -y vscode
@@ -37,6 +37,25 @@ cinst -y vscode-powershell
 cinst -y vscode-gitlens
 cinst -y vscode-docker
 cinst -y vscode-markdownlint
+#cinst -y sourcetree
+#cinst -y atom
+#cinst -y github
+
+# VM / Dev Environments
+#cinst -y docker
+#cinst -y docker-for-windows
+#cinst -y docker-compose
+#cinst -y docker-machine
+#cinst -y virtualbox
+#cinst -y vagrant
+#cinst -y terraform
+#cinst -y python
+#cinst -y jdk8
+#cinst -y nodejs
+
+# DB
+#cinst -y sql-server-express
+#cinst -y sql-server-management-studio
 
 # Utilities
 cinst -y 7zip
@@ -44,35 +63,27 @@ cinst -y winrar
 cinst -y curl
 cinst -y wget
 cinst -y sysinternals
-cinst -y sysinternals
 cinst -y windirstat
-
 #cinst -y procexp
-#cinst -y terraform
-#cinst -y atom
-#cinst -y github
-#cinst -y truecrypt
 #cinst -y putty
-#cinst -y virtualbox
-#cinst -y vagrant
-
-#cinst -y python
-#cinst -y postman
-#cinst -y jdk8
-#cinst -y nodejs
-#cinst -y driverbooster
-#cinst -y hp-universal-print-driver-pcl
-#cinst -y docker-for-windows
 
 # Office tools
 #cinst -y office365proplus 
 #office365-2016-deployment-tool
-#cinst -y skypeforbusiness
-#cinst -y slack
 #cinst -y adobereader
 #cinst -y vlc
 
+# Messsaging
+#cinst -y slack
+#cinst -y skype
+#cinst -y telegram
+
+# Browsers
 #cinst -y googlechrome
+#cinst -y firefox
+
+# etc ..
+#cinst -y truecrypt
 #cinst -y dropbox
 #cinst -y passwordsafe
 #cinst -y displaylink
