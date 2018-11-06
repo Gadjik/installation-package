@@ -68,6 +68,7 @@ cinst -y windirstat
 #cinst -y putty
 
 # Office tools
+cinst wps-office-free
 #cinst -y office365proplus 
 #office365-2016-deployment-tool
 #cinst -y adobereader
