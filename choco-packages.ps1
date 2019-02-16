@@ -1,4 +1,3 @@
-
 # Enable Windows Features...
 #Enable-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online -NoRestart
 #Enable-WindowsOptionalFeature -FeatureName Containers -Online -NoRestart
@@ -58,11 +57,12 @@ cinst -y vscode-markdownlint
 #cinst -y sql-server-management-studio
 
 # Utilities
+cinst -y openssh
 cinst -y 7zip
 cinst -y winrar
 cinst -y curl
 cinst -y wget
-cinst -y sysinternals
+#cinst -y sysinternals
 cinst -y windirstat
 #cinst -y procexp
 #cinst -y putty
@@ -80,7 +80,7 @@ cinst wps-office-free
 #cinst -y telegram
 
 # Browsers
-#cinst -y googlechrome
+cinst -y googlechrome
 #cinst -y firefox
 
 # etc ..
@@ -99,3 +99,5 @@ Disable-BingSearch
 Disable-GameBarTips
 #Enable-RemoteDesktop
 
+#Установка 1С
+#Start-Process -Wait -FilePath .\install1c.ps1
