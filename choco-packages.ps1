@@ -41,10 +41,11 @@ cinst -y vscode-markdownlint
 #cinst -y github
 
 # VM / Dev Environments
-#cinst -y docker
-#cinst -y docker-for-windows
-#cinst -y docker-compose
-#cinst -y docker-machine
+#cinst -y docker-desktop
+##cinst -y docker
+##cinst -y docker-for-windows
+##cinst -y docker-compose
+##cinst -y docker-machine
 #cinst -y virtualbox
 #cinst -y vagrant
 #cinst -y terraform
@@ -53,6 +54,8 @@ cinst -y vscode-markdownlint
 #cinst -y nodejs
 
 # DB
+# sql-server developer edition
+#chinst -y sql-server-2017
 #cinst -y sql-server-express
 #cinst -y sql-server-management-studio
 
