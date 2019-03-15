@@ -55,7 +55,7 @@ cinst -y vscode-markdownlint
 
 # DB
 # sql-server developer edition
-#chinst -y sql-server-2017
+#cinst -y sql-server-2017
 #cinst -y sql-server-express
 #cinst -y sql-server-management-studio
 
